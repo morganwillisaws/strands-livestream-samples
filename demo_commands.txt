@@ -1,0 +1,11 @@
+source .venv/bin/activate
+pip install strands-agents strands-agents-tools "mcp[cli]" anthropic openai ollama
+
+// local models
+brew install ollama
+ollama serve
+ollama pull gemma4:latest
+
+
+
+
