@@ -47,11 +47,15 @@ This scaffolds a new project with the standard directory structure:
 universitybot/
 ├── agentcore/
 │   ├── agentcore.json      # Agent configuration (runtimes, memories, etc.)
-│   └── .cli/               # CLI state and logs
+│   ├── aws-targets.json    # Deployment targets (account, region)
+│   ├── .env.local          # API keys (gitignored)
+│   └── cdk/                # CDK infrastructure
 ├── app/
 │   └── MyAgent/
-│       ├── main.py         # Your agent code
-│       └── pyproject.toml  # Python dependencies
+│       ├── main.py         # Agent entry point
+│       ├── pyproject.toml  # Python dependencies
+│       └── model/          # Model configuration
+├── AGENTS.md
 └── README.md
 ```
 
