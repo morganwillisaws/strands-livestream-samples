@@ -71,8 +71,8 @@ python episode-1/simple_agent.py
 ## Resources
 
 - [Strands Agents SDK](https://github.com/strands-agents/sdk-python)
-- [Strands Agents Tools](https://github.com/strands-agents/tools-python)
-- [Amazon Bedrock AgentCore Documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/agentcore.html)
+- [Strands Agents Tools](https://github.com/strands-agents/tools)
+- [Amazon Bedrock AgentCore Documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-get-started-cli.html)
 - [Amazon Bedrock for Beginners](https://github.com/aws-samples/sample-amazon-bedrock-for-beginners) — Knowledge Base setup guide
 
 ## License
