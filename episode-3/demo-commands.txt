@@ -1,0 +1,17 @@
+agentcore create --project-name UniversityBot --defaults
+
+agentcore dev
+
+agentcore add memory --name UniversityBotMemory --strategies SEMANTIC,SUMMARIZATION
+
+agentcore deploy
+
+agentcore invoke '{"prompt": "When does CS 201 meet?"}'
+
+agentcore invoke '{"prompt": "My name is Morgan", "actor_id": "demo_user"}' --session-id <your-session-id>
+
+agentcore invoke '{"prompt": "What is my name?", "actor_id": "demo_user"}'  --session-id <your-session-id>
+
+agentcore invoke '{"prompt": "What is my name?", "actor_id": "demo_user2"}' --session-id <your-session-id>
+
+
