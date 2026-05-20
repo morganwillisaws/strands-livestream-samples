@@ -6,6 +6,8 @@ Sample code from the Strands Agents livestream series. Each episode builds on th
 
 ### [Episode 1: Getting Started with Strands Agents](./episode-1/)
 
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=HFLZT01UVqc)
+
 Introduction to the Strands Agents SDK — building your first agent, adding tools, using different model providers, and connecting to MCP servers.
 
 **Topics covered:**
@@ -17,6 +19,8 @@ Introduction to the Strands Agents SDK — building your first agent, adding too
 
 ### [Episode 2: Conversation Management & Skills](./episode-2/)
 
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=Dt7a7i726y0)
+
 Building a production-style customer service agent with conversation memory, system prompts, steering, and skills.
 
 **Topics covered:**
@@ -27,6 +31,8 @@ Building a production-style customer service agent with conversation memory, sys
 - Custom event handlers
 
 ### [Episode 3: Deploying to Amazon Bedrock AgentCore](./episode-3/)
+
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=xMexT_jPziU)
 
 Taking a Strands agent from local development to cloud deployment with Amazon Bedrock AgentCore, adding knowledge base retrieval, guardrails, and persistent memory.
 
