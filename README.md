@@ -64,6 +64,9 @@ source .venv/bin/activate
 # Install base dependencies
 uv pip install strands-agents strands-agents-tools
 
+# Install the AgentCore CLI (requires Node.js 20+) — needed for Episode 3
+npm install -g @aws/agentcore
+
 # Run the simplest example
 python episode-1/simple_agent.py
 ```
@@ -72,6 +75,7 @@ python episode-1/simple_agent.py
 
 - [Strands Agents SDK](https://github.com/strands-agents/sdk-python)
 - [Strands Agents Tools](https://github.com/strands-agents/tools)
+- [AgentCore CLI](https://github.com/aws/agentcore-cli)
 - [Amazon Bedrock AgentCore Documentation](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agentcore-get-started-cli.html)
 - [Amazon Bedrock for Beginners](https://github.com/aws-samples/sample-amazon-bedrock-for-beginners) — Knowledge Base setup guide
 

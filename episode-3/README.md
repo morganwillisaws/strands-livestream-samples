@@ -18,8 +18,8 @@ source .venv/bin/activate
 # Install Strands Agents SDK and tools
 uv pip install strands-agents strands-agents-tools
 
-# Install the AgentCore CLI
-uv pip install bedrock-agentcore
+# Install the AgentCore CLI (requires Node.js 20+)
+npm install -g @aws/agentcore
 
 # Verify the CLI is available
 agentcore --help
